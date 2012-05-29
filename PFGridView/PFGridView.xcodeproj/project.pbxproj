@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0028455F1328FC0300D47E6D /* PFGridViewSection+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0028455D1328FC0300D47E6D /* PFGridViewSection+Internal.h */; };
+		002845601328FC0300D47E6D /* PFGridViewSection+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0028455E1328FC0300D47E6D /* PFGridViewSection+Internal.m */; };
+		009387301325E3D000BF53A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093872F1325E3D000BF53A0 /* Foundation.framework */; };
+		0093876C1325ED5400BF53A0 /* PFGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093876A1325ED5400BF53A0 /* PFGridView.h */; };
+		0093876D1325ED5400BF53A0 /* PFGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093876B1325ED5400BF53A0 /* PFGridView.m */; };
+		009387701325F5AC00BF53A0 /* PFGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093876E1325F5AC00BF53A0 /* PFGridViewCell.h */; };
+		009387711325F5AC00BF53A0 /* PFGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093876F1325F5AC00BF53A0 /* PFGridViewCell.m */; };
+		009387741325F60B00BF53A0 /* PFGridViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 009387721325F60B00BF53A0 /* PFGridViewSection.h */; };
+		009387751325F60B00BF53A0 /* PFGridViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 009387731325F60B00BF53A0 /* PFGridViewSection.m */; };
+		009387781325FAC600BF53A0 /* PFGridIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 009387761325FAC500BF53A0 /* PFGridIndexPath.h */; };
+		009387791325FAC600BF53A0 /* PFGridIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 009387771325FAC600BF53A0 /* PFGridIndexPath.m */; };
+		0093877C1326108B00BF53A0 /* PFGridView+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093877A1326108A00BF53A0 /* PFGridView+Internal.h */; };
+		0093877D1326108B00BF53A0 /* PFGridView+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093877B1326108A00BF53A0 /* PFGridView+Internal.m */; };
+		00F35CCF1329DCC8002735FD /* PFGridViewLabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F35CCD1329DCC3002735FD /* PFGridViewLabelCell.h */; };
+		00F35CD01329DCC8002735FD /* PFGridViewLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F35CCE1329DCC5002735FD /* PFGridViewLabelCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0028455D1328FC0300D47E6D /* PFGridViewSection+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PFGridViewSection+Internal.h"; sourceTree = "<group>"; };
+		0028455E1328FC0300D47E6D /* PFGridViewSection+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PFGridViewSection+Internal.m"; sourceTree = "<group>"; };
+		0093872C1325E3D000BF53A0 /* libPFGridView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPFGridView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0093872F1325E3D000BF53A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		009387331325E3D000BF53A0 /* PFGridView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PFGridView-Prefix.pch"; sourceTree = "<group>"; };
+		0093876A1325ED5400BF53A0 /* PFGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGridView.h; sourceTree = "<group>"; };
+		0093876B1325ED5400BF53A0 /* PFGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGridView.m; sourceTree = "<group>"; };
+		0093876E1325F5AC00BF53A0 /* PFGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGridViewCell.h; sourceTree = "<group>"; };
+		0093876F1325F5AC00BF53A0 /* PFGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGridViewCell.m; sourceTree = "<group>"; };
+		009387721325F60B00BF53A0 /* PFGridViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGridViewSection.h; sourceTree = "<group>"; };
+		009387731325F60B00BF53A0 /* PFGridViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGridViewSection.m; sourceTree = "<group>"; };
+		009387761325FAC500BF53A0 /* PFGridIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGridIndexPath.h; sourceTree = "<group>"; };
+		009387771325FAC600BF53A0 /* PFGridIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGridIndexPath.m; sourceTree = "<group>"; };
+		0093877A1326108A00BF53A0 /* PFGridView+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PFGridView+Internal.h"; sourceTree = "<group>"; };
+		0093877B1326108A00BF53A0 /* PFGridView+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PFGridView+Internal.m"; sourceTree = "<group>"; };
+		00F35CCD1329DCC3002735FD /* PFGridViewLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGridViewLabelCell.h; sourceTree = "<group>"; };
+		00F35CCE1329DCC5002735FD /* PFGridViewLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGridViewLabelCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009387291325E3CF00BF53A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009387301325E3D000BF53A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009387211325E3CF00BF53A0 = {
+			isa = PBXGroup;
+			children = (
+				009387311325E3D000BF53A0 /* PFGridView */,
+				0093872E1325E3D000BF53A0 /* Frameworks */,
+				0093872D1325E3D000BF53A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0093872D1325E3D000BF53A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0093872C1325E3D000BF53A0 /* libPFGridView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0093872E1325E3D000BF53A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0093872F1325E3D000BF53A0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		009387311325E3D000BF53A0 /* PFGridView */ = {
+			isa = PBXGroup;
+			children = (
+				009387321325E3D000BF53A0 /* Supporting Files */,
+				0093876A1325ED5400BF53A0 /* PFGridView.h */,
+				0093876B1325ED5400BF53A0 /* PFGridView.m */,
+				009387721325F60B00BF53A0 /* PFGridViewSection.h */,
+				009387731325F60B00BF53A0 /* PFGridViewSection.m */,
+				0093876E1325F5AC00BF53A0 /* PFGridViewCell.h */,
+				0093876F1325F5AC00BF53A0 /* PFGridViewCell.m */,
+				009387761325FAC500BF53A0 /* PFGridIndexPath.h */,
+				009387771325FAC600BF53A0 /* PFGridIndexPath.m */,
+				0093877A1326108A00BF53A0 /* PFGridView+Internal.h */,
+				0093877B1326108A00BF53A0 /* PFGridView+Internal.m */,
+				0028455D1328FC0300D47E6D /* PFGridViewSection+Internal.h */,
+				0028455E1328FC0300D47E6D /* PFGridViewSection+Internal.m */,
+				00F35CCD1329DCC3002735FD /* PFGridViewLabelCell.h */,
+				00F35CCE1329DCC5002735FD /* PFGridViewLabelCell.m */,
+			);
+			path = PFGridView;
+			sourceTree = "<group>";
+		};
+		009387321325E3D000BF53A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				009387331325E3D000BF53A0 /* PFGridView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0093872A1325E3CF00BF53A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0093876C1325ED5400BF53A0 /* PFGridView.h in Headers */,
+				009387701325F5AC00BF53A0 /* PFGridViewCell.h in Headers */,
+				009387741325F60B00BF53A0 /* PFGridViewSection.h in Headers */,
+				009387781325FAC600BF53A0 /* PFGridIndexPath.h in Headers */,
+				0093877C1326108B00BF53A0 /* PFGridView+Internal.h in Headers */,
+				0028455F1328FC0300D47E6D /* PFGridViewSection+Internal.h in Headers */,
+				00F35CCF1329DCC8002735FD /* PFGridViewLabelCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0093872B1325E3CF00BF53A0 /* PFGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009387361325E3D000BF53A0 /* Build configuration list for PBXNativeTarget "PFGridView" */;
+			buildPhases = (
+				009387281325E3CF00BF53A0 /* Sources */,
+				009387291325E3CF00BF53A0 /* Frameworks */,
+				0093872A1325E3CF00BF53A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PFGridView;
+			productName = PFGridView;
+			productReference = 0093872C1325E3D000BF53A0 /* libPFGridView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009387231325E3CF00BF53A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Exoweb;
+			};
+			buildConfigurationList = 009387261325E3CF00BF53A0 /* Build configuration list for PBXProject "PFGridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 009387211325E3CF00BF53A0;
+			productRefGroup = 0093872D1325E3D000BF53A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0093872B1325E3CF00BF53A0 /* PFGridView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009387281325E3CF00BF53A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0093876D1325ED5400BF53A0 /* PFGridView.m in Sources */,
+				009387711325F5AC00BF53A0 /* PFGridViewCell.m in Sources */,
+				009387751325F60B00BF53A0 /* PFGridViewSection.m in Sources */,
+				009387791325FAC600BF53A0 /* PFGridIndexPath.m in Sources */,
+				0093877D1326108B00BF53A0 /* PFGridView+Internal.m in Sources */,
+				002845601328FC0300D47E6D /* PFGridViewSection+Internal.m in Sources */,
+				00F35CD01329DCC8002735FD /* PFGridViewLabelCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		009387341325E3D000BF53A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		009387351325E3D000BF53A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		009387371325E3D000BF53A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/PFGridView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PFGridView/PFGridView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		009387381325E3D000BF53A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/PFGridView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PFGridView/PFGridView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009387261325E3CF00BF53A0 /* Build configuration list for PBXProject "PFGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009387341325E3D000BF53A0 /* Debug */,
+				009387351325E3D000BF53A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009387361325E3D000BF53A0 /* Build configuration list for PBXNativeTarget "PFGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009387371325E3D000BF53A0 /* Debug */,
+				009387381325E3D000BF53A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009387231325E3CF00BF53A0 /* Project object */;
+}
