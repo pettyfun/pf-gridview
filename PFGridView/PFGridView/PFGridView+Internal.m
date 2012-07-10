@@ -24,8 +24,13 @@
 - (void)handleTapGesture:(UITapGestureRecognizer *)sender {
     CGPoint point = [sender locationInView:self];
     BOOL inHeader = point.y < headerHeight;
-    if (inHeader) return;
     PFGridIndexPath *indexPath = [self indexPathForColAtPoint:point];
+    if (inHeader) {
+        if (delegate && [delegate respondsToSelector:@selector(gridView:didClickHeaderAtIndexPath:)]) {
+            [delegate gridView:self didClickHeaderAtIndexPath:[PFGridIndexPath indexPathForCol:indexPath.col inRow:0 inSection:indexPath.section]];
+        }
+        return;
+    }
     if ([selectedCellIndexPath isEqual:indexPath]) {
         return;
     }

@@ -35,6 +35,8 @@
 - (BOOL)gridView:(PFGridView *)gridView willDeselectCellAtIndexPath:(PFGridIndexPath *)indexPath;
 - (void)gridView:(PFGridView *)gridView didDeselectCellAtIndexPath:(PFGridIndexPath *)indexPath;
 - (void)gridView:(PFGridView *)gridView scrollToOffsetY:(CGFloat)offsetY;
+
+- (void)gridView:(PFGridView *)gridView didClickHeaderAtIndexPath:(PFGridIndexPath *)indexPath;
 @end
 
 typedef enum {

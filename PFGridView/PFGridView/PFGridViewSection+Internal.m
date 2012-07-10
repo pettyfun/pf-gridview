@@ -277,7 +277,6 @@
 - (void)refreshScrollView:(UIScrollView *)scrollView {
     //remove unvisible cells and put them back to reuse queue.
     NSSet *visibleIndexPathes = [self hideUnvisibleCells:scrollView];
-    //NSLog(@"CCCC %d", visibleIndexPathes.count);
     //showing the new visible cells for both scrollViews
     [self showVisibleCells:scrollView visibleIndexPathes:visibleIndexPathes];    
 }

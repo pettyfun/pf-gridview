@@ -145,5 +145,8 @@
     return gridCell;
 }
 
+- (void)gridView:(PFGridView *)gridView didClickHeaderAtIndexPath:(PFGridIndexPath *)indexPath {
+    NSLog(@"didClickHeaderAtIndexPath %@", indexPath);
+}
 
 @end
