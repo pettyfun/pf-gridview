@@ -34,13 +34,6 @@
     [demoGridView reloadData];
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
@@ -113,7 +106,8 @@
     if (gridCell == nil) {
         gridCell = [[[PFGridViewLabelCell alloc] initWithReuseIdentifier:@"LABEL"] autorelease];
         gridCell.textLabel.textAlignment = UITextAlignmentCenter;
-        gridCell.selectedBackgroundColor = [UIColor colorWithRed:0.5 green:0.5 blue:0.8 alpha:1];        
+        gridCell.selectedBackgroundColor = [UIColor colorWithRed:0.5 green:0.5 blue:0.8 alpha:1];
+        gridCell.selectedForegrondColor = [UIColor whiteColor];
     }
     gridCell.textLabel.text = [NSString stringWithFormat:@"%d-%d", indexPath.row,  indexPath.col];
     gridCell.normalBackgroundColor = [self backgroundColorForIndexPath:indexPath];

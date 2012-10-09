@@ -16,8 +16,19 @@
 		0093875C1325E43400BF53A0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0093875A1325E43400BF53A0 /* MainWindow.xib */; };
 		0093875F1325E43400BF53A0 /* PFGridViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093875E1325E43400BF53A0 /* PFGridViewDemoViewController.m */; };
 		009387621325E43400BF53A0 /* PFGridViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009387601325E43400BF53A0 /* PFGridViewDemoViewController.xib */; };
-		009387871326231700BF53A0 /* libPFGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 009387861326231700BF53A0 /* libPFGridView.a */; };
+		30FA11F21624DDFA00A9750E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA11F11624DDFA00A9750E /* Default-568h@2x.png */; };
+		30FA12031624DE4600A9750E /* libPFGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FA11F81624DE1B00A9750E /* libPFGridView.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30FA11F71624DE1B00A9750E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FA11F31624DE1B00A9750E /* PFGridView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0093872C1325E3D000BF53A0;
+			remoteInfo = PFGridView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		009387441325E43300BF53A0 /* PFGridViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFGridViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +47,8 @@
 		009387611325E43400BF53A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PFGridViewDemoViewController.xib; sourceTree = "<group>"; };
 		009387861326231700BF53A0 /* libPFGridView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPFGridView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		009387901326239600BF53A0 /* PFGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGridView.h; sourceTree = "<group>"; };
+		30FA11F11624DDFA00A9750E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		30FA11F31624DE1B00A9750E /* PFGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PFGridView.xcodeproj; path = ../PFGridView/PFGridView.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009387871326231700BF53A0 /* libPFGridView.a in Frameworks */,
+				30FA12031624DE4600A9750E /* libPFGridView.a in Frameworks */,
 				009387491325E43300BF53A0 /* UIKit.framework in Frameworks */,
 				0093874B1325E43300BF53A0 /* Foundation.framework in Frameworks */,
 				0093874D1325E43300BF53A0 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +69,8 @@
 		009387391325E43300BF53A0 = {
 			isa = PBXGroup;
 			children = (
+				30FA11F31624DE1B00A9750E /* PFGridView.xcodeproj */,
+				30FA11F11624DDFA00A9750E /* Default-568h@2x.png */,
 				0093878A1326239600BF53A0 /* PFGridView */,
 				0093874E1325E43300BF53A0 /* PFGridViewDemo */,
 				009387471325E43300BF53A0 /* Frameworks */,
@@ -116,6 +131,14 @@
 			path = ../PFGridView/PFGridView;
 			sourceTree = "<group>";
 		};
+		30FA11F41624DE1B00A9750E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FA11F81624DE1B00A9750E /* libPFGridView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,12 +177,28 @@
 			mainGroup = 009387391325E43300BF53A0;
 			productRefGroup = 009387451325E43300BF53A0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 30FA11F41624DE1B00A9750E /* Products */;
+					ProjectRef = 30FA11F31624DE1B00A9750E /* PFGridView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				009387431325E43300BF53A0 /* PFGridViewDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		30FA11F81624DE1B00A9750E /* libPFGridView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPFGridView.a;
+			remoteRef = 30FA11F71624DE1B00A9750E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		009387421325E43300BF53A0 /* Resources */ = {
@@ -169,6 +208,7 @@
 				009387531325E43300BF53A0 /* InfoPlist.strings in Resources */,
 				0093875C1325E43400BF53A0 /* MainWindow.xib in Resources */,
 				009387621325E43400BF53A0 /* PFGridViewDemoViewController.xib in Resources */,
+				30FA11F21624DDFA00A9750E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
