@@ -8,7 +8,7 @@
 
 #import "PFGridViewSection+Internal.h"
 #import "PFGridIndexPath.h"
-#import "PFGridView+Internal.m"
+#import "PFGridView+Internal.h"
 
 @implementation PFGridViewSection (PFGridViewSection_Internal)
 
