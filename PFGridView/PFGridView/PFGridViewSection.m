@@ -7,7 +7,7 @@
 //
 
 #import "PFGridViewSection.h"
-#import "PFGridViewSection+Internal.m"
+#import "PFGridViewSection+Internal.h"
 
 @implementation PFGridViewSection
 @synthesize owner;
