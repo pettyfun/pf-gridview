@@ -150,7 +150,9 @@
                         if (scrollView == headerView) {
                             cell = [dataSource gridView:owner headerForColAtIndexPath:indexPath];
                         } else {
-                            cell = [dataSource gridView:owner cellForColAtIndexPath:indexPath];                        
+                            if(indexPath.row!=-1){//else, we have an unsigned integer overflow
+                                cell = [dataSource gridView:owner cellForColAtIndexPath:indexPath];
+                            }
                         }
                         if (cell) {
                             //cell.selectionStyle = UITableViewCellSelectionStyleNone;
