@@ -154,6 +154,7 @@
 		009387231325E3CF00BF53A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Exoweb;
 			};
 			buildConfigurationList = 009387261325E3CF00BF53A0 /* Build configuration list for PBXProject "PFGridView" */;
@@ -226,6 +227,7 @@
 				DSTROOT = /tmp/PFGridView.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PFGridView/PFGridView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -238,6 +240,7 @@
 				DSTROOT = /tmp/PFGridView.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PFGridView/PFGridView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
